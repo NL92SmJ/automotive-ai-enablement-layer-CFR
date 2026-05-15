@@ -1,0 +1,58 @@
+# Use-Case Catalog
+
+This catalog provides an overview of AI use cases relevant to the automotive industry.  
+Each use case is evaluated based on feasibility, data availability, expected business value, and integration complexity.
+
+---
+
+## 1. Predictive Maintenance
+**Goal:** Reduce downtime and maintenance costs by predicting component failures.  
+**Data Required:** Sensor logs, error codes, maintenance history.  
+**Value:** High  
+**Feasibility:** Medium  
+**Notes:** Strong candidate for GPU acceleration.
+
+---
+
+## 2. Quality Inspection (Computer Vision)
+**Goal:** Detect defects in production using image or video analysis.  
+**Data Required:** High-resolution images, defect labels.  
+**Value:** Very High  
+**Feasibility:** Medium  
+**Notes:** Ideal for NVIDIA Omniverse + CV pipelines.
+
+---
+
+## 3. Logistics Optimization
+**Goal:** Optimize material flow, routing, and warehouse operations.  
+**Data Required:** ERP data, transport logs, inventory levels.  
+**Value:** High  
+**Feasibility:** High  
+**Notes:** Strong ROI, often underestimated.
+
+---
+
+## 4. E/E Architecture Analysis
+**Goal:** Identify inconsistencies, redundancies, and risks in electrical/electronic architectures.  
+**Data Required:** Architecture models, component metadata, dependencies.  
+**Value:** Medium  
+**Feasibility:** Medium  
+**Notes:** Your domain expertise makes this a unique differentiator.
+
+---
+
+## 5. Document AI (Automated Processing)
+**Goal:** Extract structured information from technical documents, PDFs, and specifications.  
+**Data Required:** PDFs, text corpora, templates.  
+**Value:** Medium  
+**Feasibility:** High  
+**Notes:** Quick wins possible with LLM-based pipelines.
+
+---
+
+## 6. Use-Case Scoring Engine
+**Goal:** Systematically evaluate AI use cases based on value, feasibility, and data readiness.  
+**Data Required:** Metadata about processes, data availability, business KPIs.  
+**Value:** Very High  
+**Feasibility:** High  
+**Notes:** Core component of the AI Enablement Layer.
